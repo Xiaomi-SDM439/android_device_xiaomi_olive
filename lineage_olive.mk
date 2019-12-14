@@ -23,13 +23,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from olive device
-$(call inherit-product, $(LOCAL_PATH)/device.mk)
+$(call inherit-product, device/xiaomi/olive/device.mk)
 
-PRODUCT_BRAND := Xiaomi
-PRODUCT_DEVICE := olive
-PRODUCT_MANUFACTURER := Xiaomi
+# Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_olive
+PRODUCT_DEVICE := olive
+PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 8
+PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
@@ -39,6 +40,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="olive-user 9 PKQ1.190319.001 V11.0.1.0.PCNRUXM release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := Xiaomi/olive_ru/olive:9/PKQ1.190319.001/V11.0.1.0.PCNRUXM:user/release-keys
+BUILD_FINGERPRINT := "Xiaomi/olive_ru/olive:9/PKQ1.190319.001/V11.0.1.0.PCNRUXM:user/release-keys"
 
 TARGET_VENDOR := Xiaomi
