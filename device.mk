@@ -22,7 +22,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
 # Inherit from sdm439-common
-$(call inherit-product, device/xiaomi/sdm439-common/msm8996.mk)
+$(call inherit-product, device/xiaomi/sdm439-common/msm8937.mk)
 
 # Permissions
 PRODUCT_COPY_FILES += \
