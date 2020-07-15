@@ -66,7 +66,6 @@ vendor/lib/libqtigef.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib/libtinycompress_vendor.so
 vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libaudiopreprocessing.so
 vendor/lib/soundfx/libdiraceffect.so
 vendor/lib/soundfx/libmisoundfx.so
 vendor/lib/soundfx/libqcbassboost.so
@@ -145,13 +144,6 @@ vendor/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_Speaker_cal.acdb
 vendor/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_workspaceFile.qwsp
 
 # Audio-Hardware
-vendor/lib/hw/audio.primary.default.so
-vendor/lib/hw/audio.primary.msm8937.so
-vendor/lib/hw/audio.r_submix.default.so
-vendor/lib/hw/audio.usb.default.so
-vendor/lib/soundfx/libqcompostprocbundle.so
-vendor/lib/soundfx/libqcomvisualizer.so
-vendor/lib/soundfx/libqcomvoiceprocessing.so
 vendor/lib64/hw/audio.primary.default.so
 vendor/lib64/hw/audio.primary.msm8937.so
 vendor/lib64/hw/audio.r_submix.default.so
@@ -169,7 +161,6 @@ vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib/libbt-hidlclient.so
-vendor/lib/libbt-vendor.so
 vendor/lib/libbtnv.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/libbt-hidlclient.so
@@ -317,7 +308,6 @@ vendor/lib/libcapiv2svacnn.so
 vendor/lib/libcapiv2vop.so
 vendor/lib/libdepthmapwrapper.so
 vendor/lib/libflash_pmic.so
-vendor/lib/libgui_vendor.so
 vendor/lib/libhal_dbg.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
@@ -345,7 +335,6 @@ vendor/lib/libvideoutils.so
 vendor/lib/libXMFD_AgeGender.so
 vendor/lib/lib_lowlight.so
 vendor/lib/mibokeh_439_opencl.bin
-vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2vop.so
 vendor/lib64/libswvdec.so
@@ -4639,7 +4628,6 @@ vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 # DRM-Widevine
 vendor/bin/hw/android.hardware.drm@1.1-service.widevine
 vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
-vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib64/libwvhidl.so
 vendor/lib64/mediadrm/libdrmclearkeyplugin.so
@@ -4648,23 +4636,7 @@ vendor/lib64/mediadrm/libwvdrmengine.so
 # Display-Hardware
 -lib/libsdm-disp-apis.so
 -lib64/libsdm-disp-apis.so
-vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so
-vendor/lib/hw/gralloc.default.so
-vendor/lib/hw/gralloc.msm8937.so
-vendor/lib/hw/hwcomposer.msm8937.so
-vendor/lib/hw/memtrack.msm8937.so
-vendor/lib/libdrm.so
-vendor/lib/libdrmutils.so
-vendor/lib/libgpu_tonemapper.so
-vendor/lib/libgrallocutils.so
-vendor/lib/libqdMetaData.so
-vendor/lib/libqdutils.so
-vendor/lib/libqservice.so
-vendor/lib/libsdmcore.so
 vendor/lib/libsdmextension.so
-vendor/lib/libsdmutils.so
-vendor/lib/vendor.display.config@1.0.so
-vendor/lib/vendor.display.config@1.1.so
 vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so
 vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/gralloc.msm8937.so
@@ -4827,7 +4799,6 @@ vendor/bin/xtra-daemon
 vendor/etc/cacert_location.pem
 vendor/etc/init/vendor.qti.gnss@1.0-service.rc
 vendor/etc/xtra_root_cert.pem
-vendor/lib/hw/android.hardware.gnss@1.0-impl-qti.so
 vendor/lib/hw/vendor.qti.gnss@1.0-impl.so
 vendor/lib/libdataitems.so
 vendor/lib/libDRPlugin.so
@@ -4841,9 +4812,7 @@ vendor/lib/libizat_core.so
 vendor/lib/liblbs_core.so
 vendor/lib/liblocationservice.so
 vendor/lib/liblocationservice_glue.so
-vendor/lib/liblocation_api.so
 vendor/lib/libloc_api_v02.so
-vendor/lib/libloc_core.so
 vendor/lib/libloc_ds_api.so
 vendor/lib/libloc_externalDr.so
 vendor/lib/libloc_externalDrcore.so
@@ -4897,9 +4866,6 @@ vendor/lib64/vendor.qti.gnss@2.1.so
 # GPS-Hardware
 vendor/lib/libaoa.so
 vendor/lib/libgarden.so
-vendor/lib/libgnss.so
-vendor/lib/libgnsspps.so
-vendor/lib/libgps.utils.so
 vendor/lib64/libaoa.so
 vendor/lib64/libgarden.so
 vendor/lib64/libgnss.so
@@ -5097,19 +5063,8 @@ vendor/lib64/libvpptestutils.so
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 
 # Media-Hardware
-vendor/lib/libc2dcolorconvert.so
-vendor/lib/libmm-omxcore.so
-vendor/lib/libOmxAacEnc.so
-vendor/lib/libOmxAmrEnc.so
-vendor/lib/libOmxCore.so
-vendor/lib/libOmxEvrcEnc.so
-vendor/lib/libOmxG711Enc.so
-vendor/lib/libOmxQcelp13Enc.so
 vendor/lib/libOmxSwVdec.so
 vendor/lib/libOmxSwVencMpeg4.so
-vendor/lib/libOmxVdec.so
-vendor/lib/libOmxVenc.so
-vendor/lib/libstagefrighthw.so
 vendor/lib64/libc2dcolorconvert.so
 vendor/lib64/libmm-omxcore.so
 vendor/lib64/libOmxAacEnc.so
@@ -5205,10 +5160,6 @@ vendor/lib64/vendor.display.color@1.3.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
 # Power-Hardware
-vendor/bin/hw/android.hardware.power@1.0-service
-vendor/etc/init/android.hardware.power@1.0-service.rc
-vendor/lib/hw/android.hardware.power@1.0-impl.so
-vendor/lib/hw/power.default.so
 vendor/lib/hw/power.qcom.so
 vendor/lib64/hw/android.hardware.power@1.0-impl.so
 vendor/lib64/hw/power.default.so
@@ -5562,9 +5513,7 @@ vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # Thermal
-vendor/bin/hw/android.hardware.thermal@1.0-service
 vendor/bin/thermal-engine
-vendor/etc/init/android.hardware.thermal@1.0-service.rc
 vendor/etc/thermal-engine-camera.conf
 vendor/etc/thermal-engine-high.conf
 vendor/etc/thermal-engine-map.conf
@@ -5572,14 +5521,12 @@ vendor/etc/thermal-engine-nolimits.conf
 vendor/etc/thermal-engine-normal.conf
 vendor/etc/thermal-engine-sgame.conf
 vendor/etc/thermal-engine.conf
-vendor/lib/hw/android.hardware.thermal@1.0-impl.so
 -vendor/lib/libthermalclient.so
 vendor/lib64/hw/android.hardware.thermal@1.0-impl.so
 -vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalfeature.so
 
 # Thermal-Hardware
-vendor/lib/hw/thermal.msm8937.so
 vendor/lib64/hw/thermal.msm8937.so
 
 # Time
@@ -5618,10 +5565,6 @@ vendor/lib64/libstreamparser.so
 vendor/lib64/libUBWC.so
 
 # Vibrator
-vendor/bin/hw/android.hardware.vibrator@1.0-service
-vendor/etc/init/android.hardware.vibrator@1.0-service.rc
-vendor/lib/hw/android.hardware.vibrator@1.0-impl.so
-vendor/lib/hw/vibrator.default.so
 vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so
 vendor/lib64/hw/vibrator.default.so
 
@@ -5740,7 +5683,6 @@ vendor/bin/diag_mdlog
 vendor/bin/displayf_bin
 vendor/bin/factory_bin
 vendor/bin/hbtp_daemon
-vendor/bin/hw/rild
 vendor/bin/ipacm-diag
 vendor/bin/mlid
 vendor/bin/mm-audio-ftm
@@ -5776,7 +5718,6 @@ vendor/etc/wifi_log.cfg
 -vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk
 vendor/bin/athdiag
 vendor/bin/chmodtp
-vendor/bin/cplay
 vendor/bin/diag_callback_sample
 vendor/bin/diag_dci_sample
 vendor/bin/diag_klog
@@ -5820,7 +5761,6 @@ vendor/etc/Conf_MultipleTest.ini
 vendor/etc/ftm_test_config_wcd9335
 vendor/etc/gpfspath_oem_config.xml
 vendor/etc/init/manifest_sku.rc
-vendor/etc/init/rild.rc
 vendor/etc/init/vendor.rild.rc
 vendor/etc/lm/AdaptLaunchFeature.xml
 vendor/etc/mp.ini
