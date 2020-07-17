@@ -44,6 +44,10 @@ VENDOR_SECURITY_PATCH := 2020-01-01
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/framework_compatibility_matrix.xml
 
+# Props
+TARGET_SYSTEM_PROP += device/xiaomi/olive/system.prop
+
+
 # Kernel
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
