@@ -40,11 +40,8 @@ TARGET_OTA_ASSERT_DEVICE := olive
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-01-01
 
-
-
 # Props
-TARGET_SYSTEM_PROP += device/xiaomi/olive/system.prop
-
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Kernel
 TARGET_KERNEL_ARCH := arm64
