@@ -54,6 +54,12 @@ BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CONFIG := olive-perf_defconfig
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 
+
+
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_olives
+TARGET_RECOVERY_DEVICE_MODULES := libinit_olives
+
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
