@@ -69,6 +69,10 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     fstab.qcom
 
+# Properties
+include $(LOCAL_PATH)/properties.mk
+
+
 # Seccomp
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/configstore@1.1.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/configstore@1.1.policy
