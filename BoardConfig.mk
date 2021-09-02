@@ -65,8 +65,7 @@ BOARD_PERSISTIMAGE_PARTITION_SIZE := 33554432
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 1971322880
 
-# Recovery
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/etc/recovery.fstab
+
 
 # inherit from the proprietary version
 -include vendor/xiaomi/olive/BoardConfigVendor.mk
