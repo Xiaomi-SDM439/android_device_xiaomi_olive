@@ -23,8 +23,6 @@ TARGET_SCREEN_HEIGHT := 1572
 TARGET_SCREEN_WIDTH := 720
 
 
-# call the proprietary setup
-$(call inherit-product, vendor/xiaomi/olive/olive-vendor.mk)
 
 
 # Overlays
