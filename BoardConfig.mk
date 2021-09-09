@@ -45,7 +45,7 @@ VENDOR_SECURITY_PATCH := 2021-08-01
 TARGET_KERNEL_CONFIG := olive-perf_defconfig
 
 
-
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_olives
